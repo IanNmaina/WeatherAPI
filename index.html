@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>WeatherAPI</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class='container'>
+    <div class='header'>
+      <h1>WeatherAPI</h1>
+    </div>
+    <div class='main'>
+      <div class='main-left'>
+        <div class='main-left-top'>
+          <h2>Search for a city</h2>
+          <input type='text' id='locationInput' placeholder='Enter a city'>
+          <button id='search-btn'>Search</button>
+        </div>
+        <div class='main-left-bottom'>
+          <h2>Current Weather</h2>
+          <div id='current-weather'>
+            <div id='current-weather-icon'></div>
+            <div id='current-weather-temp'></div>
+            <div id='current-weather-desc'></div>
+          </div>
+        </div>
+      </div>
+      <div class='main-right'>
+        <div class='main-right-top'>
+          <h2>5-Day Forecast</h2>
+          <div id='forecast-container'></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
